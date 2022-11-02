@@ -4,3 +4,16 @@
     box-sizing: border-box;
     font-family: "Cabin", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
+.flex {
+    display: flex;
+}
+
+header {
+    width: 100%;
+    height: 75px;
+    background-color: #0084fd;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
