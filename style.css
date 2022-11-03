@@ -28,13 +28,17 @@ header {    /*Header*/
 }
 
 #demo-app div.card {    /*Main*/ /*First section #demo-app*/
-    height: 300px;
     background-color: #b5ddff;
     margin: 0.5rem 0rem;
     border-radius: 20px;
     text-align: center;
     color: #0084fd;
     padding: 2rem;
+}
+
+#demo-app div.card2 figure>img {
+    width: 100%;
+    
 }
 
 #demo-app div.card>p {
@@ -120,15 +124,17 @@ header {    /*Header*/
     color: #9792e4;
 }
 
-
 #get-started {  /*Sixth section #get-started*/
     background-color: #9792e4;
+    color: white;
     align-items: center;
+    text-align: center;
 }
 
 footer { /*Footer*/
     background-color: #333333;
     color: white;
+    text-align: center;
 }
 
 @media screen and (min-width: 480px) { /*Responsive Tablet*/
