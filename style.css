@@ -34,6 +34,7 @@ header {    /*Header*/
     border-radius: 20px;
     text-align: center;
     color: #0084fd;
+    padding: 2rem;
 }
 
 #demo-app div.card>p {
