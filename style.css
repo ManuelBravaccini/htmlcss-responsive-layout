@@ -15,7 +15,7 @@
 }
 
 .padding {
-    padding: 2rem 1rem;
+    padding: 2rem;
 }
 
 header {    /*Header*/
@@ -45,20 +45,43 @@ header {    /*Header*/
     background-color: #9792e4;
 }
 
-#strat div {
-    height: 250px;
+#strat figure>img {
+    width: 100%;
+}
+
+#strat article {
+    padding: 2rem;
+    background-color: white;
+    border-radius: 40px;
+    text-align: center;
 }
 
 #testimonials {  /*Third section #testimonials*/
     align-items: center;
+    text-align: center;
 }
 
 #testimonials div.employer {
     background-color: #9792e4;
+    color: white;
     width: 100%;
-    height: 400px;
     margin: 1rem 0;
+    padding: 2rem;
     border-radius: 40px;
+    align-items: center;
+    flex-direction: column;
+}
+
+#testimonials div.employer figure {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+#testimonials div.employer figure>img {
+    width: 100%;
+    object-fit: fill;
 }
 
 #benefits {  /*Fourth section #benefits*/
