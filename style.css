@@ -271,4 +271,20 @@ footer { /*Footer*/
         padding: 0 20rem;
     }
     
+    #demo-app figure {
+        width: 50%;
+    }
+
+    #strat {
+        flex-direction: row;
+        align-items: flex-end;
+    }
+
+    #strat div.container-strat figure {
+        width: 70%;
+    }
+
+    #strat article {
+        height: 60%;
+    }
 }
