@@ -134,6 +134,7 @@ button {
 
 #benefits h2 {
     color: white;
+    text-align: center;
 }
 
 #benefits div.mini-card {
@@ -221,7 +222,7 @@ footer { /*Footer*/
     text-decoration: underline;
 }
 
-@media screen and (min-width: 480px) { /*Responsive Tablet*/
+@media screen and (min-width: 768px) { /*Responsive Tablet*/
     #demo-app {
         flex-direction: row;
         flex-wrap: wrap;
@@ -233,11 +234,23 @@ footer { /*Footer*/
         margin: 1rem;
     }
 
-    #demo-app div.card2 {
+    #demo-app div.card2{
         width: calc(100% / 3 * 1.85);
     }    
 
-    #benefits {
+    #testimonials div.employer{
+        flex-direction: row;
+    }
+    
+    #testimonials div.employer figure {
+        width: 30%;
+    }
+
+    #testimonials div.employer>div {
+        width: 70%;
+    }
+
+    #benefits .container-mini-card {
         flex-direction: row;
         flex-wrap: wrap;
     }
@@ -246,12 +259,16 @@ footer { /*Footer*/
         width: calc(100% / 2 - 2rem);
         margin: 1rem;
     }
+
+    #about {
+        flex-direction: row;
+    }
 }
 
-@media screen and (min-width: 768px) { /*Responsive Desktop*/
+@media screen and (min-width: 992px) { /*Responsive Desktop*/
     header.padding,
     section.padding {
-        padding: 0 10rem;
+        padding: 0 20rem;
     }
     
 }
